@@ -1,7 +1,7 @@
 /**
  * Stores the values of each of the pieces and the make up of the hand
  */
-public class Config {
+public final class Config {
 
     public static final int WHITES_PER_HAND = 7;
     public static final int BLUES_PER_HAND = 2;
