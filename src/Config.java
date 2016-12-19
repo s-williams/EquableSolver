@@ -5,7 +5,8 @@ public final class Config {
 
     public static final int WHITES_PER_HAND = 7;
     public static final int BLUES_PER_HAND = 2;
-
+    public static final int BROWNS_PER_HAND = 1;
+    
     public static final int ONE_SCORE = 1;
     public static final int TWO_SCORE = 2;
     public static final int THREE_SCORE = 3;
