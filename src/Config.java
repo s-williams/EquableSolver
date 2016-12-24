@@ -10,6 +10,8 @@ public final class Config {
     public static final int BLUES_PER_HAND = 2;
     public static final int BROWNS_PER_HAND = 1;
 
+    public static final int BOARD_SIZE = 19;
+
     public static final Map<Character, Integer> VALUES;
     static {
         VALUES = new HashMap<Character,Integer>();

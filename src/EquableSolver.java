@@ -8,9 +8,12 @@ import java.math.BigDecimal;
  */
 public final class EquableSolver {
     private char[] hand;
+    private Board board;
+    private EquableSolverGUI equableSolverGUI;
 
     public EquableSolver() {
-
+        board = new Board();
+        equableSolverGUI = new EquableSolverGUI();
     }
 
     private boolean verifyEquation(String equation) {
