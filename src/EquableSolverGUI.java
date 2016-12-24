@@ -18,6 +18,7 @@ public class EquableSolverGUI {
 
         JPanel northPanel = new JPanel();
         scoreLabel = new JLabel("Score: ");
+        northPanel.add(scoreLabel);
         frame.add(northPanel, BorderLayout.NORTH);
 
         centrePanel = new JPanel();
@@ -29,6 +30,7 @@ public class EquableSolverGUI {
 
         JPanel southPanel = new JPanel();
         JTextField handField = new JTextField();
+        handField.setColumns(20);
         southPanel.add(handField);
         frame.add(southPanel, BorderLayout.SOUTH);
 
