@@ -1,4 +1,4 @@
-import sun.awt.image.codec.JPEGParam;
+package EquableSolver;
 
 import javax.swing.*;
 import java.awt.*;
@@ -43,6 +43,7 @@ public class EquableSolverGUI {
         scoreLabel.setText("Score: " + score);
     }
 
+    //TODO
     public void updateBoard(Board board) {
         centrePanel.remove(0);
         int size = board.getBoardSize();

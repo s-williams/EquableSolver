@@ -1,3 +1,5 @@
+package EquableSolver;
+
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
@@ -16,6 +18,7 @@ public final class EquableSolver {
         equableSolverGUI = new EquableSolverGUI();
     }
 
+    //Returns true if a mathematical equation is correct (e.g. 4=4) and false if equation is incorrect (e.g. 4=3)
     private boolean verifyEquation(String equation) {
         equation = equation.replaceAll("÷","/");
         if (!equation.contains("=")) return false;
@@ -35,6 +38,7 @@ public final class EquableSolver {
         return true;
     }
 
+    //Calculates the result of a mathematical expression
     private int calculate(String expression) throws ScriptException {
         ScriptEngineManager mgr = new ScriptEngineManager();
         ScriptEngine engine = mgr.getEngineByName("JavaScript");

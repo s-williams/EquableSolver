@@ -1,3 +1,5 @@
+package EquableSolver;
+
 /**
  * Represents the game board
  */

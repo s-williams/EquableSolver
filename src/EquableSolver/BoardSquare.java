@@ -1,3 +1,5 @@
+package EquableSolver;
+
 /**
  * Represents a single square on the board
  */

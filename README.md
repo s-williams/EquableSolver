@@ -1,4 +1,4 @@
-# EquableSolver
+# EquableSolver.EquableSolver
 Solves Equable, the much more infuriating variant of Scrabble
 
 ## What is Equable?

@@ -1,5 +1,7 @@
+package EquableSolver;
+
 /**
- * Main class
+ * EquableSolver.Main class
  */
 public final class Main {
 
