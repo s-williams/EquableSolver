@@ -19,7 +19,7 @@ public final class EquableSolver {
     }
 
     //Returns true if a mathematical equation is correct (e.g. 4=4) and false if equation is incorrect (e.g. 4=3)
-    private boolean verifyEquation(String equation) {
+    public boolean verifyEquation(String equation) {
         equation = equation.replaceAll("÷","/");
         if (!equation.contains("=")) return false;
 
